@@ -8,12 +8,13 @@ Hosted on **beautyinsurancedirect.com** via `beauty-pdf-backend/Netlify/email/`.
 |-------|--------|
 | **Version folder** | `archive/2026-08-connect-v1/` |
 | **JPEG** | `CID_Beauty_Creative.jpg` |
-| **Instantly HTML** | `instantly_step3.html` |
+| **Instantly HTML** | `instantly_html_step.html` |
 | **Public JPEG URL** | https://beautyinsurancedirect.com/email/archive/2026-08-connect-v1/CID_Beauty_Creative.jpg |
-| **Prefill variable** | `{{connectquote_url}}` on image + CTA |
+| **Prefill variables** | `{{connectquote_url}}` on image + CTA; Step 1 uses `{{displayName}}` |
 
-**Status:** Structure only — add JPEG to `archive/2026-08-connect-v1/` before sending.
+**Status:** **Live** (2026-08-21) — JPEG committed; Git → Netlify auto-deploy.
 
+**Step 1 subject (example):** *Your salon quote, already started*
 
 ## Do not delete old versions
 
